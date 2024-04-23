@@ -1,0 +1,195 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#github{
+    background-color: #141C2F;
+    width: 100vw;
+    height: 100vh;
+}
+.container{
+    height: 100%;
+    margin: 0px auto;
+    width: 600px;
+    padding-top: 200px;
+}
+#github .container .devfinder{
+    display: flex;
+    flex-direction: column;
+}
+#github .container .devfinder .text{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+#github .container .devfinder .text h1{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#github .container .devfinder .text .right-side{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.fa-regular{
+    cursor: pointer;
+}
+#github .container .devfinder .text .right-side h4{
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#github .container .devfinder .text .right-side .fa-solid{
+    display: none;
+    font-size: 20px;
+}
+#github .container .devfinder .fa-magnifying-glass{
+    position: absolute;
+    margin-top: 35px;
+    margin-left: 10px;
+    font-size: 20px;
+    z-index: 1;
+    cursor: pointer;
+}
+.form{
+    display: flex;
+    flex-direction: row;
+}
+.searchBtn{
+    position: absolute;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    background-color:#0079FE ;
+    color: white;
+    border: none;
+    right: 700px;
+    margin-top: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+}
+#github .container .devfinder .search{
+    width: 600px;
+    height: 50px;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding-left: 40px;
+    position:relative;
+    background-color: #1F2A48;
+    border: none;
+    cursor: pointer;
+}
+
+.search::placeholder{
+    color: rgb(99, 99, 99);
+}
+#github .container .devfinder .card{
+    width: 600px;
+    background-color: #1F2A48;
+    margin-top: 20px;
+    border-radius: 13px;
+    border: 1px solid transparent;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+#github .container .devfinder .card img{
+    width: 100px;
+    border-radius: 50%;
+    background-color: white;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+/* #github .container .devfinder .card .right-side{
+
+} */
+#github .container .devfinder .card .right-side .one{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 140px;
+    align-items: center;
+    margin-bottom: 15px;
+    justify-content: center;   
+}
+#github .container .devfinder .card .right-side .one h1{
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+}
+#github .container .devfinder .card .right-side .one p{
+    color: rgba(227, 227, 227, 0.933);
+    word-spacing: 2px;
+}
+#github .container .devfinder .card .right-side .two a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #0079FE;
+}
+#github .container .devfinder .card .right-side .three p{
+    margin-top: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(149, 149, 149);
+}
+#github .container .devfinder .card .right-side .four{
+    width: 400px;
+    border: 1px solid transparent;
+    border: none;
+    height: 80px;
+    background-color: #141C2F;
+    border-radius: 10px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+#github .container .devfinder .card .right-side .four div p{
+    color: grey;
+}
+#github .container .devfinder .card .right-side .four div h1{
+    color: white;
+    margin-top: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#github .container .devfinder .card .right-side .five{
+    display: flex;
+    flex-direction: row;
+    gap: 120px;
+    margin-top: 50px;
+    margin-left: 5px;
+}
+#github .container .devfinder .card .right-side .five div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+#github .container .devfinder .card .right-side .five div p{
+    color: rgb(125, 121, 121);
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#github .container .devfinder .card .right-side .six{
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+    margin-top: 20px;
+    margin-left: 0px;
+}
+#github .container .devfinder .card .right-side .six div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+#github .container .devfinder .card .right-side .six div p{
+    color: rgb(125, 121, 121);
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
