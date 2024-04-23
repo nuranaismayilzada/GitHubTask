@@ -134,11 +134,11 @@ searchBtn.addEventListener("click", (e) => {
     fetch(`https://api.github.com/users/${searchInput.value}`).then((res) =>
         res.json()).then((data) => {
             console.log(data);
-            if (data) {
-                alert("istifadeci tapilmadi!")
-                searchInput.value=" "
-                return
-            }
+            // if (searchInput.value==null) {
+            //     alert("istifadeci tapilmadi!")
+            //     searchInput.value=" "
+            //     return
+            // }
             avatar.src = data.avatar_url
             name.innerText = data.login
             bio.innerText = data.bio ? data.bio : "Not provided"
